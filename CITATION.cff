@@ -1,0 +1,96 @@
+# ──────────────────────────────────────────────────────────────────────────
+# CITATION.cff — Machine-readable citation metadata for qBTC
+# Specification: https://citation-file-format.github.io/
+# This file is read by GitHub (citation popup) and Zenodo (DOI metadata).
+# ──────────────────────────────────────────────────────────────────────────
+
+cff-version: 1.2.0
+
+title: "qBTC: A Post-Quantum Bitcoin Protocol"
+
+version: 0.2.0
+
+type: software
+
+license: MIT
+
+date-released: "2025-04-19"
+
+abstract: >-
+  qBTC is a complete reimplementation of the Bitcoin protocol for the
+  post-quantum era. It replaces all Shor-vulnerable cryptographic
+  primitives with NIST-standardized post-quantum algorithms (ML-DSA-65,
+  SLH-DSA, ML-KEM-1024) and all Grover-vulnerable hashes with SHA3-256.
+  The protocol features a three-phase hybrid consensus mechanism
+  (QPoW → QPoW+PoS → PoS) with a 64-bit nonce that neutralizes Grover's
+  quadratic speedup. Reference implementation in Python 3.12+ with liboqs.
+
+message: >-
+  If you use this software in your research, please cite it using the
+  metadata in this file. A DOI is available via Zenodo.
+
+url: "https://github.com/qbtc-protocol/qbtc"
+
+repository-code: "https://github.com/qbtc-protocol/qbtc"
+
+authors:
+  - name: "qBTC Core Team"
+    affiliation: "qBTC Protocol"
+
+keywords:
+  - post-quantum cryptography
+  - blockchain
+  - bitcoin
+  - quantum computing
+  - ML-DSA
+  - CRYSTALS-Dilithium
+  - SLH-DSA
+  - SPHINCS+
+  - ML-KEM
+  - CRYSTALS-Kyber
+  - SHA3-256
+  - NIST FIPS 203
+  - NIST FIPS 204
+  - NIST FIPS 205
+  - proof-of-work
+  - proof-of-stake
+  - hybrid consensus
+  - Grover resistance
+  - cryptocurrency
+
+references:
+  - type: standard
+    title: "FIPS 203: Module-Lattice-Based Key-Encapsulation Mechanism Standard"
+    authors:
+      - name: "National Institute of Standards and Technology"
+    year: 2024
+    doi: "10.6028/NIST.FIPS.203"
+
+  - type: standard
+    title: "FIPS 204: Module-Lattice-Based Digital Signature Standard"
+    authors:
+      - name: "National Institute of Standards and Technology"
+    year: 2024
+    doi: "10.6028/NIST.FIPS.204"
+
+  - type: standard
+    title: "FIPS 205: Stateless Hash-Based Digital Signature Standard"
+    authors:
+      - name: "National Institute of Standards and Technology"
+    year: 2024
+    doi: "10.6028/NIST.FIPS.205"
+
+  - type: report
+    title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+    authors:
+      - family-names: Nakamoto
+        given-names: Satoshi
+    year: 2008
+    url: "https://bitcoin.org/bitcoin.pdf"
+
+  - type: software
+    title: "liboqs: Open Quantum Safe C library"
+    authors:
+      - name: "Open Quantum Safe Project"
+    url: "https://github.com/open-quantum-safe/liboqs"
+    license: MIT

@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qbtc"
+version = "0.2.0"
+description = "qBTC - Post-Quantum Bitcoin Protocol"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+keywords = ["post-quantum", "bitcoin", "blockchain", "ML-DSA", "SHA3"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pqc = ["liboqs-python>=0.11.0"]
+full = [
+    "liboqs-python>=0.11.0",
+    "cryptography>=42.0.0",
+    "rich>=13.7.0",
+    "click>=8.1.7",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "mypy>=1.8",
+    "ruff>=0.2",
+]
+
+[project.scripts]
+qbtc-node = "qbtc.core.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = [".", "tests"]
+python_files = ["test_*.py"]

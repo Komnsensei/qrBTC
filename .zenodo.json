@@ -1,0 +1,140 @@
+{
+  "title": "qBTC: A Post-Quantum Bitcoin Protocol — Reference Implementation",
+  "description": "qBTC is a complete reimplementation of the Bitcoin protocol engineered for the post-quantum era. It replaces all Shor-vulnerable cryptographic primitives (ECDSA/secp256k1) with NIST-standardized post-quantum algorithms — ML-DSA-65 (FIPS 204) for digital signatures, SLH-DSA (FIPS 205) as a hash-based fallback, and ML-KEM-1024 (FIPS 203) for key encapsulation — while replacing SHA-256 with SHA3-256 for Grover-resistant hashing. The protocol introduces a three-phase hybrid consensus mechanism transitioning from Quantum Proof-of-Work to hybrid QPoW+PoS to pure Proof-of-Stake, with a 64-bit mining nonce that neutralizes Grover's quadratic speedup. This repository contains the full reference implementation including: post-quantum cryptographic primitives, blockchain data structures, hybrid consensus engine, SHA3-256d mining engine, async TCP P2P networking, quantum-resistant HD wallet with Bech32m addresses, JSON-RPC 2.0 API, CLI, Docker deployment, and a comprehensive test suite.",
+  "version": "0.2.0",
+  "upload_type": "software",
+  "publication_date": "2025-04-19",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+
+  "creators": [
+    {
+      "name": "qBTC Core Team",
+      "affiliation": "qBTC Protocol",
+      "type": "ProjectMember"
+    }
+  ],
+
+  "contributors": [
+    {
+      "name": "Brain (Nexus Agent Swarm)",
+      "type": "ProjectLeader"
+    },
+    {
+      "name": "Crypto Agent",
+      "type": "Researcher",
+      "affiliation": "Post-Quantum Cryptography Specialist"
+    },
+    {
+      "name": "Consensus Agent",
+      "type": "Researcher",
+      "affiliation": "Distributed Consensus Specialist"
+    },
+    {
+      "name": "Network Agent",
+      "type": "Researcher",
+      "affiliation": "P2P Protocol Specialist"
+    },
+    {
+      "name": "Wallet Agent",
+      "type": "Researcher",
+      "affiliation": "Key Management Specialist"
+    },
+    {
+      "name": "DevOps Agent",
+      "type": "Other",
+      "affiliation": "Infrastructure & Deployment"
+    },
+    {
+      "name": "Documentation Agent",
+      "type": "Other",
+      "affiliation": "Technical Writing & Testing"
+    }
+  ],
+
+  "keywords": [
+    "post-quantum cryptography",
+    "blockchain",
+    "bitcoin",
+    "quantum computing",
+    "quantum resistance",
+    "ML-DSA",
+    "CRYSTALS-Dilithium",
+    "SLH-DSA",
+    "SPHINCS+",
+    "ML-KEM",
+    "CRYSTALS-Kyber",
+    "SHA3-256",
+    "NIST FIPS 203",
+    "NIST FIPS 204",
+    "NIST FIPS 205",
+    "proof-of-work",
+    "proof-of-stake",
+    "hybrid consensus",
+    "Grover resistance",
+    "Shor resistance",
+    "liboqs",
+    "Open Quantum Safe",
+    "Bech32m",
+    "UTXO",
+    "cryptocurrency"
+  ],
+
+  "subjects": [
+    {
+      "term": "Computer Science — Cryptography and Security",
+      "identifier": "https://arxiv.org/archive/cs.CR",
+      "scheme": "url"
+    },
+    {
+      "term": "Computer Science — Distributed, Parallel, and Cluster Computing",
+      "identifier": "https://arxiv.org/archive/cs.DC",
+      "scheme": "url"
+    },
+    {
+      "term": "Quantum Physics",
+      "identifier": "https://arxiv.org/archive/quant-ph",
+      "scheme": "url"
+    }
+  ],
+
+  "related_identifiers": [
+    {
+      "identifier": "10.6028/NIST.FIPS.203",
+      "relation": "references",
+      "resource_type": "publication-techreport",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.6028/NIST.FIPS.204",
+      "relation": "references",
+      "resource_type": "publication-techreport",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.6028/NIST.FIPS.205",
+      "relation": "references",
+      "resource_type": "publication-techreport",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/open-quantum-safe/liboqs",
+      "relation": "requires",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bitcoin.org/bitcoin.pdf",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-techreport",
+      "scheme": "url"
+    }
+  ],
+
+  "communities": [
+    {"identifier": "zenodo-general"}
+  ],
+
+  "notes": "This software is a research prototype implementing a post-quantum secure blockchain protocol. It uses the Open Quantum Safe liboqs library for NIST-standardized post-quantum cryptographic operations. The protocol is designed as a proof-of-concept and has not undergone formal security auditing. The 64-bit nonce space and SHA3-256 hashing provide equivalent mining difficulty to classical Bitcoin under Grover's algorithm analysis."
+}
