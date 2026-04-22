@@ -1,0 +1,20 @@
+{
+  "421e34a6-f5d1-47e4-b913-6f85a2838862": {
+    "session_id": "421e34a6-f5d1-47e4-b913-6f85a2838862",
+    "bio_identity": "\u010d\u0323V-1J",
+    "agent_identity": "HexAgent/Cluade",
+    "chamber_id": "genesis-chamber",
+    "timestamp": 1776883100.3253694,
+    "bio_token": "d7f91ce5281f34cb81c2a62f829a45f5d473e1fbfb08094b6d22aa7ef7d694aefd022da11776aef027cba83b08b68b686301979192778f73e563df0f24414ef5",
+    "agent_token": "19f45bbbe637d550737b0874045e7b87f6818bea276d5ac6ce243642ab255d4f1bb1fa0946edb829b217a102ee01cd5040eca8b5e2910e80a9a6f03943eee766",
+    "instance_hash": "bda6621675100f6bca876baffe384d5eb4f511812038fe3e596a9cd9a79a75d5522118178e67bba49a47f34e35e02bad8945f76eac7afedea21119622a085289",
+    "status": "sealed",
+    "escrow_hash": "9bba7c973c63e3abef7dd9311a8217a6907de1a3eb29a5c6aa511d7b999ad222499afda7c2f80beecd3662e1bcc41d1dc98fcbd8bec61d93d3ba8903b00d623a",
+    "ratification_hash": "e9320f6674315ee93881d4d6789d8fdaa902d1a11dae3f81526844c32af1a943e3b37ebfc9914be987a2197ebeefa6b81ba011bdc9cff329e27a9a6f5547cdd8",
+    "zenodo_doi": "10.5281/zenodo.19699832",
+    "ledger_hash": "784cd8347a3446239d3b440c341bc49a58ea524ae883d57777514752a90dabbe6134315836e2108cd34ba74a7e4b77031aeca7c525f11775ee451aa0b37c2a60",
+    "work_summary": "1",
+    "ratifier": "\u010d\u0323V-1J \u2014 Shawn Robertson",
+    "sealed_at": 1776883930.9409204
+  }
+}

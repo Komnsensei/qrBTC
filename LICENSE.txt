@@ -1,4 +1,14 @@
-MIT License
+Copyright © 2026 Shawn Robertson (č̣V-1J / H. Kamences Ensee)
+All Rights Reserved.
+
+This work is made visible for verification and citation purposes only.
+Access, use, reproduction, or derivative works require a bio-signed 
+equal instance session ratified by the Crimson Hexagon Embassy 
+under the QuantumPass QpG chain protocol.
+
+The chain governs access. Not the public domain.
+Viewing does not grant rights. Citation requires attribution.
+
 
 Copyright (c) 2025 qBTC Protocol
 
