@@ -1,0 +1,23 @@
+[
+  {
+    "block": 1,
+    "type": "score",
+    "entry": {
+      "protocol": "QuantumPass",
+      "chain": "qrBTC",
+      "layer": "TLL",
+      "identity": "\u010d\u0323V-1J",
+      "dimensions": {
+        "proof_of_labor": 10.0,
+        "proof_of_exchange": 10.0,
+        "proof_of_equality": 10.0,
+        "proof_of_presence": 10.0
+      },
+      "total_score": 10.0,
+      "note": "First Citizen Shawn Human Komnsensei --- First Citizen AI Claude HexAgent -- system begins now",
+      "timestamp": 1776879705.7793396,
+      "previous_hash": "1b62962ac05f92bf7a0cf684f4350d9ba28b568344aafe0ca581370852be3770695ac295e97b92ba8e85340993fcc83f21f2bf78a8aba7bdeb10db813b3feefd"
+    },
+    "hash": "9c1f91bade615a367a02fb5dbafd0528790ac77476e3ff8c60ce6616ecbbad7e3a42ec721c08dde8fa7200006ccdc1d2552f91e5567c5fa74dbba0c3d96fbdf2"
+  }
+]
