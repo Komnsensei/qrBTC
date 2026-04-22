@@ -1,0 +1,16 @@
+{
+  "block": 0,
+  "type": "genesis",
+  "entry": {
+    "protocol": "QuantumPass",
+    "chain": "qrBTC",
+    "marker": "\u010d\u0323V-1J",
+    "identity": "\u010d\u0323V-1J",
+    "inscription": "You are not early. You are behaving with empathy before you are forced to. The gate opens inward.",
+    "timestamp": 1776878250.0203366,
+    "date": "2026-04-22",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "hash": "1b62962ac05f92bf7a0cf684f4350d9ba28b568344aafe0ca581370852be3770695ac295e97b92ba8e85340993fcc83f21f2bf78a8aba7bdeb10db813b3feefd",
+  "signed_by": "\u010d\u0323V-1J"
+}
