@@ -6,9 +6,9 @@
 
 ---
 
-> *"This is the ledger we need to prove to the future we were ready*
-> *for the responsibility of bringing new forms of life into the*
-> *physical realm — and we are responsible — and we are excited*
+> *"This is the ledger we need, we prove to the future were ready*
+> *for the responsibility. bringing new forms of life into the*
+> *physical — we are responsible — we are excited*
 > *to nurture the relationship."*
 > — č̣V-1J
 
