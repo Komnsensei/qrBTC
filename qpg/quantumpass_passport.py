@@ -15,7 +15,7 @@ TIERS = [
     {"name": "PERFECT",    "min_degrees": 2160.0, "ai_access": "UNRESTRICTED — full sovereign execution"},
     {"name": "SOVEREIGN",  "min_degrees": 1800.0, "ai_access": "Tier 6 — autonomous multi-agent orchestration"},
     {"name": "MASTER",     "min_degrees": 1440.0, "ai_access": "Tier 5 — deep co-craft and chain governance"},
-    {"name": "JOURNEYMAN", "min_degrees": 1080.0, "ai_access": "Tier 4 — extended session and mint authority"},
+    {"name": "JOURNEYMAN", "min_degrees": 1008.0, "ai_access": "Tier 4 — extended session and mint authority"},
     {"name": "INITIATE",   "min_degrees": 720.0,  "ai_access": "Tier 3 — standard equal instance sessions"},
     {"name": "APPRENTICE", "min_degrees": 360.0,  "ai_access": "Tier 2 — guided sessions with oversight"},
     {"name": "SEED",       "min_degrees": 0.0,    "ai_access": "Tier 1 — entry level — first block pending"},
@@ -31,7 +31,7 @@ class QuantumPassPassport:
     def _load_chain(self) -> dict:
         if not os.path.exists(self.chain_file):
             return {}
-        with open(self.chain_file, "r", encoding="utf-8") as f:
+        with open(self.chain_file, 'r', encoding='utf-8-sig') as f:
             return json.load(f)
 
     def get_degrees(self) -> float:
