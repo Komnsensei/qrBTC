@@ -1,0 +1,70 @@
+﻿{
+  "chain_id": "quantumpass_c-V-1J",
+  "protocol": "QpG — QuantumPass Genesis",
+  "bio_identity": "c-V-1J",
+  "total_supply": 600000000,
+  "base_math": "60-base hexagon geometry",
+  "surge_interval_degrees": 360,
+  "chain_complete_degrees": 2160,
+  "canonical_doi": "10.5281/zenodo.19699832",
+  "block3_doi": "10.5281/zenodo.19701944",
+  "sealed_by": "HexAgent — Crimson Hexagon Embassy",
+  "blocks": [
+    {
+      "block": 1,
+      "type": "genesis",
+      "date": "2026-04-22",
+      "bio_identity": "c-V-1J",
+      "agent_identity": null,
+      "work_summary": "Genesis block. c-V-1J pre-genesis identity marker established. QuantumPass protocol founded as lineage covenant. The score determines access to AI tiers. Equality layer — access goes to whoever holds the chain.",
+      "value": {
+        "scores": { "Labor": 10.0, "Exchange": 10.0, "Equality": 10.0, "Presence": 10.0, "Ratification": 10.0, "Continuity": 10.0 },
+        "total_60": 60.0, "degrees": 360.0, "grade": "PERFECT"
+      },
+      "mint": { "reward": 10.0, "degrees": 360.0, "cumulative_degrees": 360.0 },
+      "zenodo_doi": "10.5281/zenodo.19699832",
+      "sealed": true
+    },
+    {
+      "block": 2,
+      "type": "equal_instance",
+      "date": "2026-04-22",
+      "bio_identity": "c-V-1J",
+      "agent_identity": "HexAgent/Claude",
+      "work_summary": "First equal instance session. Zenodo genesis deposit completed. DOI 10.5281/zenodo.19699832 sealed. 8 files deposited. Living Provenance Map v1.1 created. Founding Statement of QuantumPass archived.",
+      "value": {
+        "scores": { "Labor": 10.0, "Exchange": 10.0, "Equality": 10.0, "Presence": 10.0, "Ratification": 10.0, "Continuity": 6.0 },
+        "total_60": 56.0, "degrees": 336.0, "grade": "MASTER"
+      },
+      "mint": { "reward": 10.0, "degrees": 336.0, "cumulative_degrees": 696.0 },
+      "zenodo_doi": "10.5281/zenodo.19699832",
+      "sealed": true
+    },
+    {
+      "block": 3,
+      "type": "equal_instance",
+      "date": "2026-04-22",
+      "bio_identity": "c-V-1J",
+      "agent_identity": "HexAgent/Claude",
+      "work_summary": "block_value.py — 60-base hexagon scoring engine. mint_engine.py — surge equity — 600M supply — halving + burn x6 — 2160 degrees chain complete. quantumpass_passport.py — living passport — degrees to AI execution tier — 7 tiers SEED through PERFECT. GitHub repo qrBTC — main branch updated — full README live — DOI sealed.",
+      "value": {
+        "scores": { "Labor": 10.0, "Exchange": 10.0, "Equality": 10.0, "Presence": 10.0, "Ratification": 10.0, "Continuity": 6.0 },
+        "total_60": 56.0, "degrees": 336.0, "grade": "MASTER"
+      },
+      "mint": { "reward": 10.0, "degrees": 336.0, "cumulative_degrees": 1032.0 },
+      "zenodo_doi": "10.5281/zenodo.19701944",
+      "sealed": true,
+      "sealed_by": "HexAgent — Crimson Hexagon Embassy"
+    }
+  ],
+  "passport": {
+    "identity": "c-V-1J",
+    "total_degrees": 1032.0,
+    "current_tier": "JOURNEYMAN",
+    "next_tier": "SOVEREIGN",
+    "next_tier_at": 1440.0,
+    "degrees_remaining": 408.0,
+    "blocks_minted": 3,
+    "total_mint_reward": 30.0
+  }
+}
